@@ -126,3 +126,43 @@ a {
   line-height: 1.5;
   letter-spacing: 0.1px;
 }
+
+.skills .contener {
+  background-color: #f7f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 10%;
+  min-height: calc(100vh - 565px);
+  flex-wrap: wrap;
+}
+
+.skills .contener .text-skills {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills .contener .text-skills div img {
+  width: 60px;
+  margin: 15px;
+  box-shadow: 0 0 5px #777;
+}
+.skills .contener .text-skills .icon {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.skills .contener .text-skills h3 {
+  font-size: 30px;
+  color: #292929;
+}
+
+.skills .contener .vector {
+  width: 30%;
+}
+.skills .contener .vector img {
+  width: 90%;
+}
